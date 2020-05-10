@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.book-container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+h1 {
+ color:orange;
+}
+
+h3 {
+  color:orange;
+ }
+
+.orange {
+  color:orange;
+}
+
+.rate-container {
+ border-top: 2px solid orangered;
+ margin-top: 30px;
+ padding:5px;
+ font-size: 1.5em; 
+}
+
+.orangered {
+  color: orangered; 
+}
+
+
+.book-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap:10px;
+}
+.fa-trash {
+  color:red;
+}
+
+.fa-trash:hover {
+  color:orangered;
+  font-size: 20px;
+}
+
+button {
+  border: none;
+  background-color: orange;
+  border-radius: 10px solid #fff;
+  height: 30px; 
+}
+button:hover {
+  color:#fff;
+  background-color: #282c34;
+  border:1px solid #fff;
+}
+
+h1 span.fa {
+ color:#fff;
+ transform: rotate(15deg);
+}
+
+
+h4 {
+  border-left:10px solid orange;
+}
+
+body {
+ background-color: #282c34; 
+}
+
+.form {
+  margin:100px 40%;   
+}
+
+.form button, input {
+  margin-top:10px;
+}
+
+.form p {
+  color:#fff;
+}
